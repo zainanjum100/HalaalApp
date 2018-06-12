@@ -49,8 +49,8 @@ extension DetailController{
                         let longitute = Double(long)
                         let latitute = Double(lat)
                         
-                        if let ulong = longitute, let ulat = latitute{
-                                self.setupMapView(long: ulong, lat: ulat)
+                        if let safelong = longitute, let safelat = latitute{
+                                self.setupMapView(long: safelong, lat: safelat)
                         }
                         
                         
